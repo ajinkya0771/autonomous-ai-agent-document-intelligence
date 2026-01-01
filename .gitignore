@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / Editor files
+.vscode/
+.DS_Store
+
+# Vector store (optional – see note below)
+data/vectorstore/
