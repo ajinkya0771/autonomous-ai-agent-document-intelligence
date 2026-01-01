@@ -41,7 +41,7 @@ Research assistants
 
 Internal knowledge systems
 
-📂 Project Structure
+## 📂 Project Structure
 ```
 autonomous-ai-agent-document-intelligence/
 │
