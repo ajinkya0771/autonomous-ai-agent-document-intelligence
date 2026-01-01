@@ -6,27 +6,18 @@ RAG-Powered | FAISS | Groq LLaMA 3.1 | LangGraph
 
 👉 Clicking any item below will auto-scroll on GitHub
 
-Project Overview
+- [Project Overview](#-project-overview)
+- [Project Structure](#-project-structure)
+- [Key Capabilities](#-key-capabilities)
+- [System Architecture](#-system-architecture)
+- [Tech Stack](#️-tech-stack)
+- [Setup Instructions](#️-setup-instructions)
+- [Document Ingestion](#-document-ingestion-vector-store-creation)
+- [Running the Autonomous AI Agent](#-run-the-autonomous-ai-agent)
+- [Execution Screenshots](#-execution-screenshots)
+- [Future Enhancements](#-future-enhancements)
+- [Author](#-author)
 
-Project Structure
-
-Key Capabilities
-
-System Architecture
-
-Tech Stack
-
-Setup Instructions
-
-Document Ingestion
-
-Running the Autonomous AI Agent
-
-Execution Screenshots
-
-Future Enhancements
-
-Author
 
 ## 🚀 Project Overview
 
