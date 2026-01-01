@@ -1,6 +1,33 @@
 # 🤖 Autonomous AI Agent for Document Intelligence
 RAG-Powered | FAISS | Groq LLaMA 3.1 | LangGraph
 <p align="center"> <img src="https://img.shields.io/badge/AI-Agent-blueviolet?style=for-the-badge" /> <img src="https://img.shields.io/badge/RAG-Enabled-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/FAISS-VectorDB-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Groq-LLM-black?style=for-the-badge" /> <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge" /> </p> <p align="center"> <b>An end-to-end Autonomous AI Agent that performs document-grounded reasoning using Retrieval-Augmented Generation (RAG).</b> </p>
+
+## 📑 Table of Contents
+
+👉 Clicking any item below will auto-scroll on GitHub
+
+Project Overview
+
+Project Structure
+
+Key Capabilities
+
+System Architecture
+
+Tech Stack
+
+Setup Instructions
+
+Document Ingestion
+
+Running the Autonomous AI Agent
+
+Execution Screenshots
+
+Future Enhancements
+
+Author
+
 ## 🚀 Project Overview
 
 This project implements a production-style Autonomous AI Agent capable of answering questions strictly based on uploaded documents.
@@ -13,49 +40,17 @@ Grounds responses using a vector database
 
 Uses LLM reasoning only after retrieval
 
-This mirrors real enterprise GenAI systems used in document intelligence, compliance, research, and internal knowledge assistants.
+This mirrors real enterprise GenAI systems used in:
 
-✨ Key Capabilities
+Document intelligence
 
-✅ Autonomous agent orchestration (LangGraph)
-✅ Retrieval-Augmented Generation (RAG)
-✅ Semantic document ingestion & chunking
-✅ FAISS vector search for fast retrieval
-✅ HuggingFace embeddings (MiniLM)
-✅ Groq LLaMA 3.1 for low-latency inference
-✅ Clean, modular & extensible architecture
-✅ CLI-based interactive querying
+Compliance & policy Q&A
 
-## 🧠 System Architecture
-User Query
-   ↓
-Autonomous AI Agent
-   ↓
-Tool Invocation (RAG Tool)
-   ↓
-FAISS Vector Store
-   ↓
-Relevant Document Chunks
-   ↓
-Groq LLM (Grounded Answer)
+Research assistants
 
+Internal knowledge systems
 
-✔ Prevents hallucination
-✔ Answers strictly from documents
-✔ Agent decides when to retrieve
-
-🛠️ Tech Stack
-Layer	Technology
-Language	Python 3.10+
-Agent Framework	LangGraph
-RAG Framework	LangChain
-Vector Database	FAISS
-Embeddings	HuggingFace (all-MiniLM-L6-v2)
-LLM	Groq – LLaMA 3.1
-Environment	Virtualenv
-Version Control	Git & GitHub
-
-## 📂 Project Structure
+📂 Project Structure
 ```
 autonomous-ai-agent-document-intelligence/
 │
@@ -72,17 +67,61 @@ autonomous-ai-agent-document-intelligence/
 │   └── embeddings.py
 │
 ├── llm/                 # Groq LLM configuration
-│
 ├── data/
-│   ├── sample_docs/     # Input documents
-│   └── vectorstore/     # FAISS index
-│
-├── screenshots/         # Execution proof
-├── ui/                  # Optional UI layer
-├── main.py              # Entry point
+│   ├── sample_docs/
+│   └── vectorstore/
+├── screenshots/
+├── ui/
+├── main.py
 ├── requirements.txt
 └── README.md
 ```
+## ✨ Key Capabilities
+
+Autonomous agent orchestration using LangGraph
+
+Retrieval-Augmented Generation (RAG)
+
+Semantic document ingestion and chunking
+
+FAISS vector search for fast retrieval
+
+HuggingFace MiniLM embeddings
+
+Groq LLaMA 3.1 for low-latency inference
+
+Modular, extensible architecture
+
+CLI-based interactive querying
+
+## 🧠 System Architecture
+User Query
+   ↓
+Autonomous AI Agent
+   ↓
+RAG Tool Invocation
+   ↓
+FAISS Vector Store
+   ↓
+Relevant Document Chunks
+   ↓
+Groq LLM (Grounded Answer)
+
+
+✔ Prevents hallucination
+✔ Answers strictly from documents
+✔ Agent decides when to retrieve
+
+## 🛠️ Tech Stack
+Layer	Technology
+Language	Python 3.10+
+Agent Framework	LangGraph
+RAG Framework	LangChain
+Vector Database	FAISS
+Embeddings	HuggingFace (all-MiniLM-L6-v2)
+LLM	Groq – LLaMA 3.1
+Environment	Virtualenv
+Version Control	Git & GitHub
 
 ## ⚙️ Setup Instructions
 1️⃣ Clone Repository
@@ -106,16 +145,19 @@ GROQ_API_KEY=your_groq_api_key_here
 python -m rag.run_ingest
 
 
-✔ Loads documents
-✔ Splits into chunks
-✔ Generates embeddings
-✔ Stores vectors in FAISS
+Loads documents
+
+Splits into chunks
+
+Generates embeddings
+
+Stores vectors in FAISS
 
 🤖 Run the Autonomous AI Agent
 python main.py
 
 
-Example interaction:
+Example:
 
 Ask a question:
 Based only on the uploaded document, explain what Retrieval-Augmented Generation is.
@@ -134,18 +176,7 @@ Step	Description
 05	Direct LLM response
 06	RAG tool invocation
 07	Document-grounded answer
-
-📁 See /screenshots directory
-
-🎯 Why This Project Is Strong
-
-✔ Demonstrates real GenAI system design
-✔ Shows agent-based reasoning
-✔ Implements enterprise RAG architecture
-✔ Avoids hallucination using retrieval
-✔ Recruiter-friendly, production-style code
-
-## 🔮 Future Enhancements
+🔮 Future Enhancements
 
 Multi-Level / Hierarchical RAG
 
@@ -159,7 +190,7 @@ Web UI (Streamlit / FastAPI)
 
 Enterprise document pipelines
 
-📌 Author
+## 📌 Author
 
 Ajinkya Dhote
 AI / GenAI Engineer
