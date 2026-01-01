@@ -160,6 +160,7 @@ Based only on the uploaded document, explain what Retrieval-Augmented Generation
 
 ## 📸 Execution Screenshots
 Step	Description
+```
 01	Project structure
 02	Virtual environment activated
 03	Vector store created
@@ -167,7 +168,9 @@ Step	Description
 05	Direct LLM response
 06	RAG tool invocation
 07	Document-grounded answer
-🔮 Future Enhancements
+```
+
+## 🔮 Future Enhancements
 
 Multi-Level / Hierarchical RAG
 
